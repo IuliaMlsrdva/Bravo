@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brabo.Web", "Brabo.Web\Brabo.Web.csproj", "{14387C98-5F37-4926-958D-2B3BF51902FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14387C98-5F37-4926-958D-2B3BF51902FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14387C98-5F37-4926-958D-2B3BF51902FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14387C98-5F37-4926-958D-2B3BF51902FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14387C98-5F37-4926-958D-2B3BF51902FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3829DBC9-7428-43F4-B57B-5874E8C9EE55}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿@using System.Web.Optimization;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Команда Браво</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    @Styles.Render("~/bundles/main/css")
+</head>
+<body>
+    <div style="padding-left:100px;">
+        <img src="~/Images/dot1.png" width="12" height="17" alt="Logo photo"> &nbsp; Где нас найти? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="tel:022 661 444" onclick="fbq('track', 'Contact', {phone: '022661444'})"> 0(22) 661 444</a>
+    </div>
+
+
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/mainJS.js"></script>
+</body>
+</html>
+
+
+

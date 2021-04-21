@@ -1,0 +1,180 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!--header-->
+<header>
+    <div class="header-left">
+        <img src="~/Images/logonew.png" width="200" height="100" alt="Logo photo">
+    </div><!-- тут происходит гавно с фото -->
+    <div class="header-center">
+        <div>
+            <ul>
+                <li><a href="@Url.Action("Index","Home")">Главная</a></li>  <!--почему не переходит по ссылке?-->
+                <div class="dropdown">
+                    <button class="dropbtn">Услуги <img src='~/Images/arrow.png' width="13" height="10"></button>
+                    <div class="dropdown-content">
+                        <a href="#">Коты</a>
+                        <!-- <a href="@Url.Action("Women","Women")">Женская обувь</a>-->
+                        <a href="#">Собаки</a>
+                    </div>
+                </div>
+
+
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">О нас</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-right">
+        <button onclick="window.location.href = 'https://www.facebook.com/echipa.bravo/photos/?ref=page_internal';">  <img src="~/Images/facebook.png" width="23" height="23" alt="facebook photo"></button>
+        <button onclick="window.location.href = 'https://www.instagram.com/echipa_bravo/';">  <img src="~/Images/inst.png" width="23" height="23" alt="facebook photo"></button>
+    </div>
+
+</header>
+
+
+<!--photo slider-->
+
+<div class="slide-container">
+    <div class="slide fade">
+        <img src='~/Images/pic1.jpg' alt='first pic'>
+    </div>
+    <div class="slide fade">
+        <img src='~/Images/pic3.jpg' alt='second pic'>
+    </div>
+    <div class="slide fade">
+        <img src='~/Images/pic5.jpg' alt='third pic'>
+    </div>
+    <div class="slide fade">
+        <img src='~/Images/pic7.jpg' alt='fourth pic'>
+    </div>
+
+    <a href="#" class="prev" title="Previous">&#10094</a>
+    <a href="#" class="next" title="Next">&#10095</a>
+</div>
+<div class="dots-container">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+<div class="imgpaw">
+    <img src="~/Images/paw1.png" width="67" height="74" alt="paw photo">
+</div>
+<div class="whyus">Почему стоит выбрать именно нас?</div>
+<div class="thatswhyCont thatswhy">At River City Veterinary Hospital, a Meridian veterinarian, we understand the deep connection you share with your animal companion. In fact, we know that he or she is more like a four-legged family member than merely a pet. That’s because, beyond who we are as veterinary professionals, we’re pet parents just like you. We know firsthand this amazing journey, with all of its ups and downs, joys and challenges. In fact, it’s our personal experiences with animals that make our care so unique.</div>
+
+<div class="imgpaw">
+    <img src="~/Images/paw1.png" width="67" height="74" alt="paw photo">
+</div>
+
+<div class="whyus">Наши доктора</div>
+
+
+<!--НЕ РАБОТАЕТ ВСЕ ХЕРНЯ-->
+</br>
+<p style="text-align:center">
+
+    <img src="~/Images/lastslav.jpg" alt="Avatar man" href="#" class="names">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="~/Images/lastmar.jpg" alt="Avatar woman" href="#" class="names">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="~/Images/ira.jpg" alt="Avatar woman" href="#" class="names">
+</p>
+
+</br>
+
+<div class="imgpaw">
+    <img src="~/Images/paw1.png" width="67" height="74" alt="paw photo">
+</div>
+
+
+<div id="cbp-so-scroller" class="cbp-so-scroller">
+
+    <section class="cbp-so-section">
+
+        <article class="cbp-so-side cbp-so-side-left">
+
+            <h2>Гельминты (глисты)</h2>
+
+            <p>
+
+                Правила обработки и профилактики
+                </br>Исходя из того что животные могут рождаться УЖЕ ЗАРАЖЕННЫМИ, следует придерживаться следующего плана обработки:
+
+                </br> </br > ➖ на 21 день жизни,
+                </br>➖ на 31 день жизни,
+                </br>➖ на 41 день жизни,
+                </br>➖ затем 1 раз в месяц до 6 месяцев жизни,
+                </br> ➖ затем 1 раз в 3 месяца на протяжении жизни.
+
+                </br> </br> Выбор и дозировки препаратов лучше доверьте ветеринарному врачу, а не фармацевту или Google-у.
+            </p>
+
+        </article>
+
+        <figure class="cbp-so-side cbp-so-side-right">
+
+            <img src="~/images/gelm.jpg" alt="img01">
+
+        </figure>
+
+    </section>
+
+
+
+    <section class="cbp-so-section">
+
+        <figure class="cbp-so-side cbp-so-side-left">
+
+            <img src="~/images/klesh.jpg" alt="img01">
+
+        </figure>
+
+        <article class="cbp-so-side cbp-so-side-right">
+
+            <h2>Клещ</h2>
+
+            <p>
+                Клещи являются переносчиками такого заболевания как БАБЕЗИОЗ, которое очень опасно для СОБАК и в случае позднего обращения к ветеринару исход может быть летальным☠
+                </br> Первые симптомы на которые вы должны обратить внимание : апатия(вялость), отказ от еды, повышение температуры тела сверх 39,5 C°🌡
+                </br>
+                Меры профилактики: обработка
+                </br>✔спот-он(Advantix, Frontline, Бинакар, Барс, Beephar, Дана, Дана ультра и т.д.);
+                </br>✔таблетками( NexGard, Simparica, Brovecto);
+                </br>✔спреями( Frontline, Bolfo, Hartz, Арпалит, Барс, Beephar, Biokill)
+                </br>✔ошейниками( Foresto, Kiltex, Bolfo). Важным моментом так же является осмотр своего питомца после прогулок, так как все перечисленые препараты не дают 100% защиту.
+                </br> Но так же еще не каждый клещ является зараженным. Если обнаружили клеща, измеряйте температуру в течении 7 дней⚠️ Перед использованием любого препарата ЧИТАЙТЕ ВНИМАТЕЛЬНО ИНСТРУКЦИЮ, учитывайте вес животного а еще лучше ПОСОВЕТУЙТЕСЬ с ВЕТЕРИНАРОМ
+            </p>
+
+        </article>
+
+    </section>
+
+</div>
+ 
+
+<div>
+    <h3>Распродажа корма</h3>
+    <table>
+        <tr>
+            <td><p>Название корма</p></td>
+            <td><p>Объем</p></td>
+            <td><p>Цена</p></td>
+            <td></td>
+        </tr>
+        @foreach (var b in ViewBag.Products)
+        {
+    <tr>
+        <td><p>@b.Name</p></td>
+        <td><p>@b.Volume</p></td>
+        <td><p>@b.Price</p></td>
+        <td><p><a href="/Home/Buy/@b.Id">Купить</a></p></td>
+    </tr>
+        }
+    </table>
+</div>
